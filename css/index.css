@@ -1,3 +1,54 @@
+/* BANNER */
+
+.banner{
+    background-color: #ffb81cff;
+    display: flex;
+}
+
+.banner_img{
+    margin-top: 2em;
+    margin-right: 2em;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.banner_text{
+    width: 50%;
+    padding: 3em;
+}
+
+.banner_text>h1{
+    font-family: poppins_b, sans-serif;
+    font-size: 3.5em;
+    line-height: 1.2em;
+    color: #fff;
+    margin: 0;
+}
+
+.banner_text>p{
+    font-family: poppins_r, sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.banner_text_button > a{
+    padding: 0.8em 1.5em;
+    background-color: #fff;
+    color: #ffb81cff;
+    border-radius: 5px;
+    font-family: poppins_sb, sans-serif;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.4s;
+} 
+
+.banner_text_button > a:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 9px 19px, rgba(0, 0, 0, 0.22) 0px 7px 6px;
+}
+
 /* video banner */
 
 .video-banner{
